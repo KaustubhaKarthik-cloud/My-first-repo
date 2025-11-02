@@ -23,7 +23,7 @@ int main() {
 
         // Validate move
         if (row < 1 || row > 3 || col < 1 || col > 3 || board[row - 1][col - 1] != ' ') {
-            printf("❌ Invalid move! Try again.\n\n");
+            printf(" Invalid move! Try again.\n\n");
             continue;
         }
 
@@ -34,14 +34,14 @@ int main() {
         result = checkWin();
         if (result == 1) {
             printBoard();
-            printf("🎉 Player %d wins! 🎉\n", player);
+            printf(" Player %d wins! \n", player);
             break;
         }
 
         // Check for draw
         if (isFull()) {
             printBoard();
-            printf("🤝 It's a draw!\n");
+            printf(" It's a draw!\n");
             break;
         }
 
