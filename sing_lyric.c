@@ -29,7 +29,6 @@ int main() {
        
     };
 
-    // Approximate delays in seconds after each line
     float delays[] = {
         0.5, 0.5, 0.5, 0.5,  0.5, 0.5, 0.5,  0.5,  0.5, 0.5,  
     };

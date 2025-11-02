@@ -10,9 +10,9 @@ char questions[][100] = {"1. what is the square of 20?\n",
                         "A.5\nB.45\nC.83\nD.3",
                         "A.yes\nB.no\nC.maybe\nD.idk"};    
                         
-char answerkey[] = {'A','D','A'};      
+char answerkey[] = {'A','D','B'};      
 
-   int questioncount = sizeof(questions) / sizeof(questions[0]);
+   int questioncount = sizeof(questions) / sizeof(questions[1]);
 
    char guess;
    int score = 0;
